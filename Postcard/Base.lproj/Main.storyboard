@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="RuX-56-Maf" eventType="touchUpInside" id="cRN-Xj-Mad"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2B-PC-DvV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="136" width="194" height="61"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2z-It-fCC">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -122,6 +131,7 @@
                                 <exclude reference="bYS-bi-c40"/>
                                 <exclude reference="Vt0-ZH-JeK"/>
                                 <exclude reference="sh6-kF-9y7"/>
+                                <exclude reference="A2B-PC-DvV"/>
                                 <exclude reference="W2z-It-fCC"/>
                             </mask>
                         </variation>
@@ -132,6 +142,7 @@
                                 <include reference="bYS-bi-c40"/>
                                 <include reference="Vt0-ZH-JeK"/>
                                 <include reference="sh6-kF-9y7"/>
+                                <include reference="A2B-PC-DvV"/>
                                 <include reference="W2z-It-fCC"/>
                             </mask>
                         </variation>
@@ -141,6 +152,7 @@
                         <outlet property="enterNameTextField" destination="K0r-ZP-t4F" id="yz6-9G-pBa"/>
                         <outlet property="mailButton" destination="sh6-kF-9y7" id="gRC-B1-Wcp"/>
                         <outlet property="messageLabel" destination="W2z-It-fCC" id="sud-Ap-PDc"/>
+                        <outlet property="nameLabel" destination="A2B-PC-DvV" id="2AP-wA-IXi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWS-1c-QNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
