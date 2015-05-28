@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        
         // Adding a comment here to change commit
         
         messageLabel.hidden = false
