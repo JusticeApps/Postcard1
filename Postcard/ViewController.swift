@@ -24,10 +24,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        // Adding a comment here to change commits
+        
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        
+        // Adding a comment here to change commit
         
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
