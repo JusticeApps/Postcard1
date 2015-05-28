@@ -13,6 +13,8 @@
 		9B9C2BC71B16AC4900C98CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C2BC61B16AC4900C98CE4 /* Images.xcassets */; };
 		9B9C2BCA1B16AC4900C98CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C2BC81B16AC4900C98CE4 /* LaunchScreen.xib */; };
 		9B9C2BD61B16AC4900C98CE4 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C2BD51B16AC4900C98CE4 /* PostcardTests.swift */; };
+		9B9C2BE01B16AD3700C98CE4 /* sagrada-familia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C2BDF1B16AD3700C98CE4 /* sagrada-familia.jpg */; };
+		9B9C2BE21B16AD3E00C98CE4 /* Albert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C2BE11B16AD3E00C98CE4 /* Albert.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		9B9C2BCF1B16AC4900C98CE4 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9C2BD41B16AC4900C98CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B9C2BD51B16AC4900C98CE4 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		9B9C2BDF1B16AD3700C98CE4 /* sagrada-familia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sagrada-familia.jpg"; sourceTree = "<group>"; };
+		9B9C2BE11B16AD3E00C98CE4 /* Albert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albert.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		9B9C2BBD1B16AC4900C98CE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B9C2BE11B16AD3E00C98CE4 /* Albert.jpg */,
+				9B9C2BDF1B16AD3700C98CE4 /* sagrada-familia.jpg */,
 				9B9C2BBE1B16AC4900C98CE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9C2BC51B16AC4900C98CE4 /* Main.storyboard in Resources */,
+				9B9C2BE01B16AD3700C98CE4 /* sagrada-familia.jpg in Resources */,
 				9B9C2BCA1B16AC4900C98CE4 /* LaunchScreen.xib in Resources */,
+				9B9C2BE21B16AD3E00C98CE4 /* Albert.jpg in Resources */,
 				9B9C2BC71B16AC4900C98CE4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
